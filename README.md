@@ -76,4 +76,30 @@ grep -rnw . -e "secret_key"
 ./s3withiam/provider.tf:4:  secret_key = ""
 
 ```
-
+### commands to contribute to this repo.
+```
+ 2009  git clone https://github.com/Sathiyarajan/terraform.git
+ 2010  ls
+ 2011  cd terraform/
+ 2012  ls
+ 2013  git branch -a
+ 2014  git checkout -b terraform-sathya
+ 2015  git branch -a
+ 2016  git checkout terraform-files
+ 2017  git branch -a
+ 2018  git checkout terraform-sathya
+ 2019  git branch -a
+ 2020  ls
+ 2021  vim README.md
+ 2022  git status
+ 2023  git diff
+ 2024  git add .
+ 2025  git diff
+ 2026  git status
+ 2027  git commit -m "Added installation steps in README.md file"
+ 2028  git branch -a
+ 2029  git status
+ 2030  git push origin terraform-sathya
+ 2031  history
+```
+### once the above changes done create a PR in https://github.com/Sathiyarajan/terraform/pulls
