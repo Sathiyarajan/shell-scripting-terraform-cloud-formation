@@ -1,5 +1,13 @@
 # install Terraform
 
+### to contribute
+```
+apt update
+apt install git 
+apt install vim
+git clone  https://github.com/Sathiyarajan/terraform.git
+```
+
 ```
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 ```
