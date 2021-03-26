@@ -1,3 +1,11 @@
+### to contribute
+```
+apt update
+apt install git 
+apt install vim
+git clone  https://github.com/Sathiyarajan/terraform.git
+```
+
 # install Terraform
 
 ```
@@ -69,3 +77,30 @@ grep -rnw . -e "secret_key"
 
 ```
 
+### commands to contribute to this repo.
+```
+git clone https://github.com/Sathiyarajan/terraform.git
+ls
+cd terraform/
+ls
+git branch -a
+git checkout -b terraform-sathya
+git branch -a
+git checkout terraform-files
+git branch -a
+git checkout terraform-sathya
+git branch -a
+ls
+git status
+git diff
+git add .
+git diff
+git status
+git commit -m "Added installation steps in README.md file"
+git branch -a
+git status
+git push origin terraform-sathya
+history
+```
+
+### once the above changes done create a PR in https://github.com/Sathiyarajan/terraform/pulls
