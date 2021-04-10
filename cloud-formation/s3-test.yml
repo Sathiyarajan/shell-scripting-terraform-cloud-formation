@@ -1,0 +1,13 @@
+Transform: S3Objects
+Resources:
+  Bucket:
+    Type: AWS::S3::Bucket
+
+  Object:
+    Type: AWS::S3::Object
+    Properties:
+      Target:
+        Bucket: !Ref Bucket
+        Key: README.md
+        ContentType: text/plain
+      Body: Hello, world!
